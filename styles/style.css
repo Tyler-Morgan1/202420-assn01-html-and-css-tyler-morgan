@@ -1,0 +1,80 @@
+* {
+    font-family: "Palatino", "URW Palladio L", serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: purple;
+}
+
+a:hover {
+    color: blue;
+    font-size: 1.1em;
+}
+
+.bandName {
+    font-weight: bold;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.picture {
+    width: 200px;
+}
+
+.description, .names, .tracks {
+    padding: 10px;
+    margin: 10px;
+}
+
+.tracks {
+    padding-top: 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    list-style-type: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#myTable {
+    background-color: purple;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.tableHeading {
+    color: yellow;
+}
+
+.tableHeading td {
+    border: 1px solid black;
+}
+
+.tableSong {
+    color: gold;
+}
+
+.tableSong td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#mainContainer div {
+    border: 2px solid black;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
